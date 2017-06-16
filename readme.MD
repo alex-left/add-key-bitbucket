@@ -3,6 +3,7 @@
 Simple script to add a Read only ssh public key (deploy key) in a Bitbucket repo. 
 
 ## USAGE
+```
 usage: add-key.py [-h] [-u USER] -r REPO -n NAME -k KEY [-l LOGIN] [-p PASSWD]
 
 add a public ssh deploy key in a bitbucket repo 
@@ -18,3 +19,4 @@ optional arguments:
                         user for login in BB
   -p PASSWD, --passwd PASSWD
                         password for login in BB
+```
